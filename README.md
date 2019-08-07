@@ -1,11 +1,11 @@
 # python_scripts_analysis
 
-In this repository is a collection of Python scripts that I have created for a number of differenet personal and academic projects.
+In this repository is a collection of Python that I have created for a number of differenet personal and academic projects.
 
 # ETL for Education 
+Main focus of this project was create a business problem and create a ETL solution to gather data and prepare it for a data warehouse to make it readily availble for decision making. The vizualication and analysis is not the focus of this project.
 
 # Background
-
 Education plays an important role in society. Being more well educated has a number of benefits including financial, career, personal and societal.
 Financial benefits can be found from balance sheets, income statements and adhere to governmental regulation which are published on a timely basis. Financial benefits are easier to quantify and compare, but it does not discount the value of the others. 
 Where do we find the others?
@@ -47,21 +47,26 @@ formatted data ready for analysis in the data warehouse.
 
 Teck Stack: Combination of Python, Talend, Postgres and Tableau.
 
-A total of 23 datasets! We were able to gather variables of interest from a number of different formats. From CSV, Excel, Json, Html and both structured and semi-structured. 
-
-We cleaned them into a suitable format to be loaded into the data warehouse. 
+A total of 23 datasets! We were able to gather variables of interest from a number of different formats. From CSV, Excel, Json, Html and both structured and semi-structured. Each were transformed into a suitable format before being loaded into the data warehouse. 
 
 Variables of interest: 
 
-Gross Domestic Product, Population, Test scores, Number of households
-Number of children below 19
-Unemployment rate for each state
-Happiness rank
-Health rank
-Lifestyle rank
-State Coordinates
-Number of enrollments
-State revenue on education
-State expenditure on education 
+Gross Domestic Product, Population, Test scores, Number of households, Number of children below 19, Unemployment rate for each state, Happiness rank, Health rank, Lifestyle rank, State Coordinates, Number of enrollments, State revenue on education, and State expenditure on education 
 
+# How we gathered the data
+- Downloaded Csv and Excel files
+
+We used Python to….
+- Interact with an API to gather data on latitude and longitude. Reading state names from a Csv file, the pining an API and writing the coordinates into another Csv.
+- Create a webscraper to parse html to gather variables of interest
+- Data cleaning tasks.
+
+# Feeding our ETL
+
+In total we have 23 sets.
+1.) Using Python to transform and merge 19 datasets in 5
+2.) Gathering more data from API and Web scrapping for 2 more datasets
+3.) 2 more CSV files
+4.) Staging area has 9 tables from 9 datasets.
+5.) 9 datasets in the staging area are combined into 1 dimensional table as the datawarehouse.
 
