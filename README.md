@@ -26,16 +26,42 @@ When do you need to see the benefits?
 - Investing in a after-school program will yield benefits next year? 4 years?
 - Balancing all four benefits do not trouble every financial manager, but do need to be taken into consideration as a public servant. 
 
+# A certain president called for a budget cut…..
+
+There is no public servant with more responsibility than the president of the United States.
+Running a country includes looking after the military, the economy, creating laws and healthcare and education.
+In the planned 2018 fiscal budget, Donald Trump called for $9.2 billion or %13.5 cut to education. 
+This proposed cut will have affect many different programs and each cut will have their own affect. 
+
+Need to take all 4 benefits into account!
+
+Insight Corp. (aka Yours Truely) has been hired as a consultant to explore spending habits and test scores of each US state. 
+To ensure American citizens still will receive a proper education! By better understanding which state has the more efficient 
+educational model, we can help other states during the time of budget cuts. 
+
+# To complete our analysis we need data!
+
+Data sets from all over the internet
+By utilizing a range of open source tools, we are able to automate the Extract Transform and Load process and get properly 
+formatted data ready for analysis in the data warehouse. 
+
+Teck Stack: Combination of Python, Talend, Postgres and Tableau.
+
+A total of 23 datasets! We were able to gather variables of interest from a number of different formats. From CSV, Excel, Json, Html and both structured and semi-structured. 
+
+We cleaned them into a suitable format to be loaded into the data warehouse. 
+
+Variables of interest: 
+
+Gross Domestic Product, Population, Test scores, Number of households
+Number of children below 19
+Unemployment rate for each state
+Happiness rank
+Health rank
+Lifestyle rank
+State Coordinates
+Number of enrollments
+State revenue on education
+State expenditure on education 
 
 
-Purpose: To aggregate 
-
-What the project does:
-
-Why the project is useful: 
-
-How users can get started with the project:
-
-Where users can get help with your project:
-
-Who maintains and contributes to the project:
