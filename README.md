@@ -92,4 +92,4 @@ Looking at the first section:
 4.) Starting from the top of the list, Run each of the files in order starting with 3-4-7-GDP-Population-Unemployment.ipynb
 5.) After running each of the files, check Group 1 - CSV for Staging” in the C:\ to see the cleaned data files that are ready to be read into Talend.
 
-<img src="images/ETL2.1.png" width="400"> <img src="images/ETL1.png" width="400">
+<img src="images/ETL1.png" width="400">  <img src="images/ETL2.1.png" width="400">
