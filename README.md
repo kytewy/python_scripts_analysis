@@ -64,9 +64,13 @@ We used Python to….
 # Feeding our ETL
 
 In total we have 23 sets.
-1.) Using Python to transform and merge 19 datasets in 5
-2.) Gathering more data from API and Web scrapping for 2 more datasets
-3.) 2 more CSV files
-4.) Staging area has 9 tables from 9 datasets.
-5.) 9 datasets in the staging area are combined into 1 dimensional table as the datawarehouse.
 
+1 - Using Python to transform and merge 19 datasets in 5
+2 - Gathering more data from API and Web scrapping for 2 more datasets
+3 - 2 more CSV files
+4 - Staging area has 9 tables from 9 datasets.
+5 - 9 datasets in the staging area are combined into 1 dimensional table as the datawarehouse.
+
+ETL Diagram
+
+<img src="images/ETL.png" width="400">
