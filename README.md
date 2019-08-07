@@ -100,7 +100,7 @@ Combining with other data files in order to
 
 Talend
 
-<img src="images/ETL2.1.png" width="400">
+<img src="images/ETL2.1.png" width="400"> <img src="images/Talend1.png" width="400">
 
 Postgres
 
