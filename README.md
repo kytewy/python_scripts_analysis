@@ -63,14 +63,35 @@ We used Python to….
 
 # Feeding our ETL
 
-In total we have 23 sets.
+In total we have 23 sets and we are combining them into a 1 dimensional table.
 
 1 - Using Python to transform and merge 19 datasets in 5
-2 - Gathering more data from API and Web scrapping for 2 more datasets
-3 - 2 more CSV files
-4 - Staging area has 9 tables from 9 datasets.
+
+2 - Gathering more data from API and Web scrapping for 2 more datasets n/
+
+3 - 2 more CSV files n\
+
+4 - Staging area has 9 tables from 9 datasets. \n
+
 5 - 9 datasets in the staging area are combined into 1 dimensional table as the datawarehouse.
 
-ETL Diagram
+<img src="images/ETL.png" width="600">
 
-<img src="images/ETL.png" width="400">
+Looking at the first section: 
+
+1.) Downloading the following necessary files: 
+- Python Zip file: The directory does not matter as long as you can run Jupyter notebooks. 
+- Group 1 – Data Lake: This is where our data has been collected from all over the web. 
+2.) Create “Group 1 - CSV for Staging” in the C:\
+3.) Open each of the python files:
+- 3-4-7-GDP-Population-Unemployment.ipynb
+- 5-US_State_Under_19_filter.ipynb
+- 6-Households EST.ipynb
+- 8-Happiness rank - Web crawler.ipynb
+- 9-State Coordinate Crawler.ipynb
+4.) Starting from the top of the list, Run each of the files in order starting with 3-4-7-GDP-Population-Unemployment.ipynb
+5.) After running each of the files, check Group 1 - CSV for Staging” in the C:\ to see the cleaned data files that are ready to be read into Talend.
+
+<img src="images/ETL2.2.png" width="600">
+
+<img src="images/ETL2.1.png" width="600">
