@@ -69,9 +69,9 @@ In total we have 23 sets and we are combining them into a 1 dimensional table.
 
 2 - Gathering more data from API and Web scrapping for 2 more datasets n/
 
-3 - 2 more CSV files n\
+3 - 2 more CSV files 
 
-4 - Staging area has 9 tables from 9 datasets. \n
+4 - Staging area has 9 tables from 9 datasets.
 
 5 - 9 datasets in the staging area are combined into 1 dimensional table as the datawarehouse.
 
@@ -84,12 +84,76 @@ Looking at the first section:
 - Group 1 – Data Lake: This is where our data has been collected from all over the web. 
 2.) Create “Group 1 - CSV for Staging” in the C:\
 3.) Open each of the python files:
-- 3-4-7-GDP-Population-Unemployment.ipynb
-- 5-US_State_Under_19_filter.ipynb
-- 6-Households EST.ipynb
-- 8-Happiness rank - Web crawler.ipynb
-- 9-State Coordinate Crawler.ipynb
+  - 3-4-7-GDP-Population-Unemployment.ipynb
+  - 5-US_State_Under_19_filter.ipynb
+  - 6-Households EST.ipynb
+  - 8-Happiness rank - Web crawler.ipynb
+  - 9-State Coordinate Crawler.ipynb
+  
 4.) Starting from the top of the list, Run each of the files in order starting with 3-4-7-GDP-Population-Unemployment.ipynb
+
 5.) After running each of the files, check Group 1 - CSV for Staging” in the C:\ to see the cleaned data files that are ready to be read into Talend.
 
+Talend
+
+Combining with other data files in order to 
+
+
+
 <img src="images/ETL1.png" width="400">  <img src="images/ETL2.1.png" width="400">
+
+Postgres
+
+<img src="images/ETL3.png" width="400">  <img src="images/ETL3.1.png" height="600">
+
+Intial vizualizing with Tableau
+
+A couple of the states are a lot bigger than others! To standardize comparison, we calculated:
+
+(Expenditure)/(# of students enrolled) = spending per student
+
+Lets try to identify the top 3!
+
+<img src="images/Viz.jpg" width="400">
+
+How the top states compare
+
+Located on the right meaning high marks and middle of the pack in terms of spending per student enrolled.
+- Minnesota
+- New Hampshire
+- Massachusetts
+
+Let how these states rank on other variables of interest that are not test score. 
+
+Unemployment Rate: Lower than average.
+Happiness Score: Higher than average.
+
+<img src="images/Viz1.png" width="500"> 
+
+You want to live in a state with a low ranking (1 being best)
+GDP: Slightly higher than average on GDP/Capita.
+Lifestyle Rating (1 being best) top 3 are rated well.
+Health Rating (1 being best) top 3 are sporadic.
+
+<img src="images/Viz2.png" width="500">
+
+Overall thoughts
+- 4/5 variables the top three states do score higher
+- Promising results but future analysis can be taken
+- We thought 23 data sets was a good amount to start with.
+- Insight Corp. was able to deliver the ETL solution on time to Congress.
+- They will be using out tool to automate their data aggregation. 
+
+Future Analysis
+Overall, we tried to bring as many data points that might relevant to answer the business question. However, additional data we would like to find if we had more time and data available on the internet:
+
+- Average information about score break down by ethnicity 
+- Average GDP 
+- Average population 
+- Average number of schools 
+- Average number of households and number of children under 18 
+- Household income 
+- Average number of years of education 
+- Average expenditure of household on different aspects, including education 
+- Average quality of life
+
