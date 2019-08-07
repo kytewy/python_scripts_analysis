@@ -82,7 +82,9 @@ Looking at the first section:
 1.) Downloading the following necessary files: 
 - Python Zip file: The directory does not matter as long as you can run Jupyter notebooks. 
 - Group 1 – Data Lake: This is where our data has been collected from all over the web. 
+
 2.) Create “Group 1 - CSV for Staging” in the C:\
+
 3.) Open each of the python files:
   - 3-4-7-GDP-Population-Unemployment.ipynb
   - 5-US_State_Under_19_filter.ipynb
