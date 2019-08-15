@@ -33,6 +33,8 @@ Running a country includes looking after the military, the economy, creating law
 In the planned 2018 fiscal budget, Donald Trump called for $9.2 billion or %13.5 cut to education. 
 This proposed cut will have affect many different programs and each cut will have their own affect. 
 
+https://www.npr.org/sections/ed/2017/05/22/529534031/president-trumps-budget-proposal-calls-for-deep-cuts-to-education
+
 Need to take all 4 benefits into account!
 
 Insight Corp. (aka Yours Truely) has been hired as a consultant to explore spending habits and test scores of each US state. 
