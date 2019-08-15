@@ -1,14 +1,6 @@
-TBD
+# python_scripts_analysis
+In this repository is a collection of personal and academic projects.
 
+# ETL for Education
+Combination of Python, Talend, Postgres and Tableau to clean and visualize benificical trends of education.
 
-A README file, along with a repository license, contribution guidelines, and a code of conduct, helps you communicate expectations for and manage contributions to your project.
-
-A README is often the first item a visitor will see when visiting your repository. README files typically include information on:
-
-This is a project is about how to develop
-
-What the project does
-Why the project is useful
-How users can get started with the project
-Where users can get help with your project
-Who maintains and contributes to the project
