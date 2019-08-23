@@ -65,54 +65,9 @@ We used Python to….
 
 # Feeding our ETL
 
-<img src="talend_HQ.jpg" width="600">
+<img src="images/talend_HQ.jpg" >
 
-In total we have 23 sets and we are combining them into a 1 dimensional table.
-
-1 - Using Python to transform and merge 19 datasets in 5
-
-2 - Gathering more data from API and Web scrapping for 2 more datasets n/
-
-3 - 2 more CSV files 
-
-4 - Staging area has 9 tables from 9 datasets.
-
-5 - 9 datasets in the staging area are combined into 1 dimensional table as the datawarehouse.
-
-<img src="images/ETL.png" width="600">
-
-Looking at the first section: 
-
-1.) Downloading the following necessary files: 
-- Python Zip file: The directory does not matter as long as you can run Jupyter notebooks. 
-- Group 1 – Data Lake: This is where our data has been collected from all over the web. 
-
-2.) Create “Group 1 - CSV for Staging” in the C:\
-
-3.) Open each of the python files:
-  - 3-4-7-GDP-Population-Unemployment.ipynb
-  - 5-US_State_Under_19_filter.ipynb
-  - 6-Households EST.ipynb
-  - 8-Happiness rank - Web crawler.ipynb
-  - 9-State Coordinate Crawler.ipynb
-  
-4.) Starting from the top of the list, Run each of the files in order starting with 3-4-7-GDP-Population-Unemployment.ipynb
-
-5.) After running each of the files, check Group 1 - CSV for Staging” in the C:\ to see the cleaned data files that are ready to be read into Talend.
-
-Combining with other data files in order to 
-
-<img src="images/ETL1.png" width="400">  
-
-Talend
-
-<img src="images/ETL2.1.png" width="400"> <img src="images/Talend1.png" width="400">
-
-Postgres
-
-<img src="images/ETL3.png" width="400">  <img src="images/ETL3.1.png" height="600">
-
-Intial vizualizing with Tableau
+# Intial vizualizing with Tableau
 
 A couple of the states are a lot bigger than others! To standardize comparison, we calculated:
 
@@ -120,14 +75,12 @@ A couple of the states are a lot bigger than others! To standardize comparison, 
 
 Lets try to identify the top 3!
 
-<img src="images/Viz.jpg" width="400">
-
-How the top states compare
-
 Located on the right meaning high marks and middle of the pack in terms of spending per student enrolled.
 - Minnesota
 - New Hampshire
 - Massachusetts
+
+<img src="images/Viz.jpg" width="400">
 
 Let how these states rank on other variables of interest that are not test score. 
 
@@ -143,14 +96,14 @@ Health Rating (1 being best) top 3 are sporadic.
 
 <img src="images/Viz2.png" width="500">
 
-Overall thoughts
+# Overall thoughts
 - 4/5 variables the top three states do score higher
 - Promising results but future analysis can be taken
 - We thought 23 data sets was a good amount to start with.
 - Insight Corp. was able to deliver the ETL solution on time to Congress.
 - They will be using out tool to automate their data aggregation. 
 
-Future Analysis
+# Future Analysis
 Overall, we tried to bring as many data points that might relevant to answer the business question. However, additional data we would like to find if we had more time and data available on the internet:
 
 - Average information about score break down by ethnicity 
