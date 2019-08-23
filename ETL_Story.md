@@ -80,21 +80,27 @@ Located on the right meaning high marks and middle of the pack in terms of spend
 - New Hampshire
 - Massachusetts
 
+<p align="center">
 <img src="images/Viz.jpg" width="400">
+</p>
 
 Let how these states rank on other variables of interest that are not test score. 
 
 Unemployment Rate: Lower than average.
 Happiness Score: Higher than average.
 
-<img src="images/Viz1.png" width="500"> 
+<p align="center">
+ <img src="images/Viz1.png" width="500"> 
+</p>
 
 You want to live in a state with a low ranking (1 being best)
 GDP: Slightly higher than average on GDP/Capita.
 Lifestyle Rating (1 being best) top 3 are rated well.
 Health Rating (1 being best) top 3 are sporadic.
 
-<img src="images/Viz2.png" width="500">
+<p align="center">
+  <img src="images/Viz2.png" width="500">
+</p>
 
 # Overall thoughts
 - 4/5 variables the top three states do score higher
