@@ -71,7 +71,7 @@ We used Python to….
 
 A couple of the states are a lot bigger than others! To standardize comparison, we calculated:
 
-(Expenditure)/(# of students enrolled) = spending per student
+**(Expenditure)/(# of students enrolled) = spending per student**
 
 Lets try to identify the top 3!
 
@@ -81,7 +81,7 @@ Located on the right meaning high marks and middle of the pack in terms of spend
 - Massachusetts
 
 <p align="center">
-<img src="images/Viz.jpg" width="400">
+<img src="images/Viz.jpg">
 </p>
 
 Let how these states rank on other variables of interest that are not test score. 
@@ -90,7 +90,7 @@ Unemployment Rate: Lower than average.
 Happiness Score: Higher than average.
 
 <p align="center">
- <img src="images/Viz1.png" width="500"> 
+ <img src="images/Viz1.png"> 
 </p>
 
 You want to live in a state with a low ranking (1 being best)
@@ -99,7 +99,7 @@ Lifestyle Rating (1 being best) top 3 are rated well.
 Health Rating (1 being best) top 3 are sporadic.
 
 <p align="center">
-  <img src="images/Viz2.png" width="500">
+  <img src="images/Viz2.png">
 </p>
 
 # Overall thoughts
@@ -109,7 +109,9 @@ Health Rating (1 being best) top 3 are sporadic.
 - Insight Corp. was able to deliver the ETL solution on time to Congress.
 - They will be using out tool to automate their data aggregation. 
 
-# Future Analysis
+# Future Considerations
+Creating a script to automate each of the scripts running. There do not depend on one another therefore each one could have been done in parrarel. 
+
 Overall, we tried to bring as many data points that might relevant to answer the business question. However, additional data we would like to find if we had more time and data available on the internet:
 
 - Average information about score break down by ethnicity 
