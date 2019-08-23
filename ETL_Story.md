@@ -1,7 +1,3 @@
-# python_scripts_analysis
-
-In this repository is a collection of Python that I have created for a number of differenet personal and academic projects.
-
 # ETL for Education 
 Main focus of this project was create a business problem and create a ETL solution to gather data and prepare it for a data warehouse to make it readily availble for decision making. The vizualication and analysis is not the focus of this project.
 
