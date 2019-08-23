@@ -65,6 +65,8 @@ We used Python to….
 
 # Feeding our ETL
 
+<img src="talend_HQ.jpg" width="600">
+
 In total we have 23 sets and we are combining them into a 1 dimensional table.
 
 1 - Using Python to transform and merge 19 datasets in 5
